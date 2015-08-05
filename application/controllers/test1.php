@@ -25,7 +25,7 @@ class Test1 extends CI_Controller {
     public function index01() {
         $this->load->model('crud');
         
-        
+        echo 'a';
 //        $data['first_name'] = 'Steve';
 //        $data['last_name'] = 'Jobs';
 //        $data['last_name'] = '408-555-1212';
